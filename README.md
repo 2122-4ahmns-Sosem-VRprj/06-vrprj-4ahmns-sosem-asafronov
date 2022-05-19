@@ -71,3 +71,7 @@ When you pick up the tape (which is a Pick Up interactable), you can bring the t
 
 ![grafik](https://user-images.githubusercontent.com/72389349/168021320-4755ff19-d703-4b60-ab7a-264609d54ad7.png)
 
+### Solution to the first minigame:
+![Solution](https://user-images.githubusercontent.com/72389349/169349012-96bd0d97-3a3a-4297-a388-15c7f82e9838.png)
+
+
