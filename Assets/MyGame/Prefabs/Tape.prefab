@@ -14,8 +14,8 @@ GameObject:
   - component: {fileID: 2108006081796497490}
   - component: {fileID: 5226070888610642909}
   - component: {fileID: 5967837480062401513}
-  m_Layer: 0
-  m_Name: Torus
+  m_Layer: 6
+  m_Name: Tape
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -63,7 +63,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: cd7e5ba152174ae41b79aff2a060a10d, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -241,7 +241,7 @@ GameObject:
   - component: {fileID: 2510661465668543969}
   - component: {fileID: 2356362315011924076}
   - component: {fileID: 2029998437560706673}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Torus.001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -289,7 +289,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: 04ef9db004a1a0a498a3a64c350281c4, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0

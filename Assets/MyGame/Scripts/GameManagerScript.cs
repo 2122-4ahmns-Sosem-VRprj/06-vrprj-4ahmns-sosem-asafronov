@@ -4,23 +4,22 @@ using UnityEngine;
 
 public class GameManagerScript : MonoBehaviour
 {
-    public void HoverEntered(string a)
+    public int Leitung;
+    public Animator animatorDoor;
+
+    public void TapeAdd()
     {
-        Debug.Log(a);
+        Leitung++;
+
     }
 
-    public void HoverExit(string a)
+    public void TapeAway()
     {
-        Debug.Log(a);
+        Leitung--;
     }
 
-    public void SelectEntered(string a)
+    public void Update()
     {
-        Debug.Log(a);
-    }
-
-    public void SelectExit(string a)
-    {
-        Debug.Log(a);
+        animatorDoor.SetInteger("GasStopped", Leitung);
     }
 }
