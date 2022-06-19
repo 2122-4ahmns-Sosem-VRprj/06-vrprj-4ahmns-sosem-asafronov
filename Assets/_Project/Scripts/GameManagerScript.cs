@@ -6,6 +6,7 @@ public class GameManagerScript : MonoBehaviour
 {
     public int Leitung;
     public Animator animatorDoor;
+    public GameObject end_trigger;
 
     public void TapeAdd()
     {

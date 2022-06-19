@@ -1346,10 +1346,10 @@ MonoBehaviour:
   m_TrackingStateAction:
     m_UseReference: 0
     m_Action:
-      m_Name: 
+      m_Name: Tracking State
       m_Type: 0
       m_ExpectedControlType: 
-      m_Id: 
+      m_Id: c5364d99-97b7-49d6-98d2-d6ede8d207be
       m_Processors: 
       m_Interactions: 
       m_SingletonActionBindings: []
@@ -1370,10 +1370,10 @@ MonoBehaviour:
   m_SelectActionValue:
     m_UseReference: 0
     m_Action:
-      m_Name: 
+      m_Name: Select Action Value
       m_Type: 0
       m_ExpectedControlType: 
-      m_Id: 
+      m_Id: 0f0d7031-1cb7-4524-9670-13eef18c8adb
       m_Processors: 
       m_Interactions: 
       m_SingletonActionBindings: []
@@ -1394,10 +1394,10 @@ MonoBehaviour:
   m_ActivateActionValue:
     m_UseReference: 0
     m_Action:
-      m_Name: 
+      m_Name: Activate Action Value
       m_Type: 0
       m_ExpectedControlType: 
-      m_Id: 
+      m_Id: 33b17892-6537-4375-a610-f961f9b93471
       m_Processors: 
       m_Interactions: 
       m_SingletonActionBindings: []
@@ -1418,10 +1418,10 @@ MonoBehaviour:
   m_UIPressActionValue:
     m_UseReference: 0
     m_Action:
-      m_Name: 
+      m_Name: UI Press Action Value
       m_Type: 0
       m_ExpectedControlType: 
-      m_Id: 
+      m_Id: e1c45d0e-1ff2-46c9-ba31-227be8a54c35
       m_Processors: 
       m_Interactions: 
       m_SingletonActionBindings: []
