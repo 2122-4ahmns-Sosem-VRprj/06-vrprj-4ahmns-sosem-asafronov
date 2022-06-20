@@ -1,16 +1,10 @@
 # HTL-VRProject with XRInteractionToolkit !Template!
 
 ### Project description: 
-This project contains two minigames and a labyrinth to go through.
+This project contains one minigame and a labyrinth to go through.
 
 ### Development platform: 
 OS: Windows 10, Game Engine: Unity 2020.3.18f1, Visual Studio 2019, XR Interaction Toolkit 1.0.0-pre.8, XR Plugin Management 4.2.1, Oculus XR Plugin 1.10.0.
-
-## Software/Hardware Requirements: 
-Oculus hardware requirements https://support.oculus.com/248749509016567/
-You need a VR headset in this case an Oculus Rift/Quest/Quest2
-
-Examples: https://github.com/Unity-Technologies/XR-Interaction-Toolkit-Examples
 
 ### Target platform: 
 Oculus Rift/S; Quest/2
@@ -18,10 +12,11 @@ Oculus Rift/S; Quest/2
 ### Third party material and packages:
 
 | Package Name | Package ID | Version |
-|:---:|:---:|:---:|
+|:---|:---|:---|
 | JetBrains Rider Editor | com.unity.ide.rider | 2.0.7 |
 | Oculus XR Plugin | com.unity.xr.oculus | 1.10.0 |
 | OpenXR Plugin | com.unity.xr.openxr | 1.2.8 |
+| Post Processing | com.unity.postprocessing | 3.1.1 |
 | Test Framework | com.unity.test-framework | 1.1.31 |
 | TextMeshPro | com.unity.textmeshpro | 3.0.6 |
 | Timeline | com.unity.timeline | 1.4.8 |
@@ -36,7 +31,7 @@ All 3D-Modells are made in blender by me.
 
 ### The Maze
 
-I remodelled the maze for better lightbaking and texture settings (UV-Mapping)
+I remodelled the maze for better lighting and functional texture-settings (UV-Mapping).
 
 ![SkizzeMaze](https://user-images.githubusercontent.com/28704310/159113247-e0cfe023-79fb-4ffd-b76f-342c55d93ef2.png)
 
@@ -61,6 +56,8 @@ I also added the possibility to snap in two different directions.
 While developing the game, some new and better ideas came up and in the end I changed the "Roehren-System-logic" a little bit.
 Instead of looking for pipes liying around in the maze, you look for tape with which you try to fix holes that are present inside of the pipes.
 
+(For simplicity, there is already one piece of tape lying on the table near the pipe-system. The player has the freedom to look for an extra tape if he wants an easier time with the puzzle.)
+
 ![grafik](https://user-images.githubusercontent.com/72389349/168020071-1332afb5-fe1f-432d-ba5b-86c0dc187f39.png)
 
 The tape you fix the pipes with:
@@ -68,10 +65,21 @@ The tape you fix the pipes with:
 ![grafik](https://user-images.githubusercontent.com/72389349/168020400-041c199e-8632-4f76-8d64-2abdf3c5ecac.png)
 
 When you pick up the tape (which is a Pick Up interactable), you can bring the tape near a socket interactor which then deactivates the particle effect (gas) and activates again if the tape gets removed from the socket interactor.
+(Update: Also the gas-sound stops when the tape is placed inside the socket interactor. When removed, the sound plays again.)
 
 ![grafik](https://user-images.githubusercontent.com/72389349/168021320-4755ff19-d703-4b60-ab7a-264609d54ad7.png)
 
 ### Solution to the first minigame:
 ![Solution](https://user-images.githubusercontent.com/72389349/169349012-96bd0d97-3a3a-4297-a388-15c7f82e9838.png)
 
+### Animations
+All animations were also created by me.
 
+
+### Sound-Design - Music
+I composed my own song (since I have not found anything usefull on the internet) and also made an outro.
+
+### Sound-Design - Foleys
+Foleys which I downlowded from YouTube: Gas sound and door closing sound.
+
+Foleys which I created by myself: Door opening sound.
